@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@electron/typescript-definitions > lodash':
+        patched: '2021-03-16T23:58:20.274Z'
+    - eslint > lodash:
+        patched: '2021-03-16T23:58:20.274Z'
+    - '@typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash':
+        patched: '2021-03-16T23:58:20.274Z'
+    - eslint > table > lodash:
+        patched: '2021-03-16T23:58:20.274Z'
+    - tap-xunit > xmlbuilder > lodash:
+        patched: '2021-03-16T23:58:20.274Z'
+    - '@typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2021-03-16T23:58:20.274Z'
+    - standard-markdown > standard > eslint > lodash:
+        patched: '2021-03-16T23:58:20.274Z'
+    - standard-markdown > standard > eslint > table > lodash:
+        patched: '2021-03-16T23:58:20.274Z'
+    - standard-markdown > standard > eslint > inquirer > lodash:
+        patched: '2021-03-16T23:58:20.274Z'
