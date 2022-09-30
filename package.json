@@ -140,7 +140,7 @@
   },
   "dependencies": {
     "@types/temp": "^0.8.34",
-    "snyk": "^1.491.0"
+    "snyk": "^1.996.0"
   },
   "snyk": true
 }
