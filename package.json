@@ -43,7 +43,7 @@
     "husky": "^2.2.0",
     "klaw": "^3.0.0",
     "lint": "^1.1.2",
-    "lint-staged": "^10.2.11",
+    "lint-staged": "^11.2.4",
     "minimist": "^1.2.6",
     "nugget": "^2.0.1",
     "null-loader": "^4.0.0",
