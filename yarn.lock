@@ -1232,6 +1232,11 @@ chalk@^4.0.0, chalk@^4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+chalk@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
+  integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
+
 character-entities-legacy@^1.0.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/character-entities-legacy/-/character-entities-legacy-1.1.3.tgz#3c729991d9293da0ede6dddcaf1f2ce1009ee8b4"
@@ -1448,7 +1453,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.20.0, commander@^2.9.0:
+commander@^2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
@@ -4933,14 +4938,13 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
-pre-flight@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/pre-flight/-/pre-flight-1.1.1.tgz#482fb1649fb400616a86b2706b11591f5cc8402d"
-  integrity sha512-glqyc2Hh3K+sYeSsVs+HhjyUVf8j6xwuFej0yjYjRYfSnOK8P3Na9GznkoPn48fR+9kTOfkocYIWrtWktp4AqA==
+pre-flight@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/pre-flight/-/pre-flight-2.0.0.tgz#5e7c09aa49dbaeb28b21cc5c7d49b0ad1ee63a78"
+  integrity sha512-uqrCBHAzVogOyI/79jsxbveioqA9GUK5MBbrwifEHlCFhi3BkEkDYxFEzNxxfkUBl43Gnqkniw1ZKGaTf/YvAA==
   dependencies:
-    colors "^1.1.2"
-    commander "^2.9.0"
-    semver "^5.1.0"
+    chalk "^5.3.0"
+    semver "^7.6.3"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -6043,6 +6047,11 @@ semver@^7.2.1, semver@^7.3.2:
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
   integrity sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
+
+semver@^7.6.3:
+  version "7.6.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
+  integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
 
 send@0.17.1:
   version "0.17.1"
